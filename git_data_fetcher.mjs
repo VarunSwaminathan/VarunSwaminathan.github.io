@@ -138,7 +138,10 @@ fetch(baseUrl, {
   headers: headers,
   body: JSON.stringify(query_pr),
 })
-  .then((response) => response.text())
+  .then((response) => {
+  console.log(response);
+  return response.text();
+})
   .then((txt) => {
     const data = JSON.parse(txt);
     var cropped = { data: [] };
@@ -176,7 +179,10 @@ fetch(baseUrl, {
   headers: headers,
   body: JSON.stringify(query_issue),
 })
-  .then((response) => response.text())
+  .then((response) => {
+  console.log(response);
+  return response.text();
+})
   .then((txt) => {
     const data = JSON.parse(txt);
     var cropped = { data: [] };
@@ -211,7 +217,10 @@ fetch(baseUrl, {
   headers: headers,
   body: JSON.stringify(query_org),
 })
-  .then((response) => response.text())
+  .then((response) => {
+  console.log(response);
+  return response.text();
+})
   .then((txt) => {
     const data = JSON.parse(txt);
     const orgs = data["data"]["user"]["repositoriesContributedTo"]["nodes"];
@@ -265,7 +274,10 @@ fetch(baseUrl, {
   headers: headers,
   body: JSON.stringify(query_pinned_projects),
 })
-  .then((response) => response.text())
+  .then((response) => {
+  console.log(response);
+  return response.text();
+})
   .then((txt) => {
     const data = JSON.parse(txt);
     // console.log(txt);

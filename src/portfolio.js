@@ -52,7 +52,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  
+
   {
     name: "Gmail",
     link: "varunrswaminathan@gmail.com",
@@ -67,6 +67,9 @@ const socialMediaLinks = [
   },
 ];
 
+const competitiveSites = {
+  data: [{}],
+};
 const skills = {
   data: [
     {
@@ -112,7 +115,7 @@ const skills = {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
         },
-         
+
         {
           skillName: "Natural Language Processing",
           fontAwesomeClassname: "simple-icon:NLP",
@@ -123,12 +126,12 @@ const skills = {
         },
         {
           skillName: "Reinforcement Learning",
-          fontAwesomeClassname: "simple-icon:RL"
+          fontAwesomeClassname: "simple-icon:RL",
         },
         {
           skillName: "Big Data Analytics and Data Intensive Computing",
-          fontAwesomeClassname: "simple-icon:DIC"
-        }
+          fontAwesomeClassname: "simple-icon:DIC",
+        },
       ],
     },
     {
@@ -151,25 +154,25 @@ const skills = {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:C#",
           style: {
-            color: "#3776AB"
-          }
+            color: "#3776AB",
+          },
         },
 
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:C++",
           style: {
-            color: "#D00000"
-          }
+            color: "#D00000",
+          },
         },
 
         {
           skillName: "SQL",
           fontAwesomeClassname: "simple-icon:SQL",
           style: {
-            color: "#3776AB"
-          }
-        }
+            color: "#3776AB",
+          },
+        },
 
         {
           skillName: "JavaScript",
@@ -386,7 +389,7 @@ const certifications = {
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
- 
+
     {
       title: "DL on Tensorflow",
       subtitle: "- Laurence Moroney",
@@ -491,7 +494,7 @@ const experience = {
           // company_url: "https://www.tiktok.com/en/",
           // logo_path: "tiktok_logo.png",
           duration: "Jan 2022 - May 2022",
-          location: "Chennai, India"
+          location: "Chennai, India",
           description:
             "Collaborated with senior engineers to understand project requirements and develop innovative machine learning models. Devised 5+ scalable classifiers, leading to a 20% increase in model efficiency. Engaged in data preprocessing, model optimization, and evaluation to drive development of a novel product for Intel. Adapted standard machine learning methods for optimal performance in modern parallel environments, including assigned clusters, multicore SMP, and GPU.",
           color: "#000000",
@@ -598,38 +601,43 @@ const project = {
     {
       id: "KKJBYVUbibais",
       title: "Chatbot System",
-      description: "Developed an advanced chatbot utilizing GRU-based Deep Learning architecture. Showcased proficiency in NLP, machine learning, and model evaluation. Devised a seamless and engaging conversational experience, highlighting ability to translate complex algorithms into practical AI applications. Reduced user query resolution time by 25% through efficient algorithm implementations.",
-      url: 
-      "https://github.com/VarunSwaminathan/Chatbot-using-GRU",
+      description:
+        "Developed an advanced chatbot utilizing GRU-based Deep Learning architecture. Showcased proficiency in NLP, machine learning, and model evaluation. Devised a seamless and engaging conversational experience, highlighting ability to translate complex algorithms into practical AI applications. Reduced user query resolution time by 25% through efficient algorithm implementations.",
+      url: "https://github.com/VarunSwaminathan/Chatbot-using-GRU",
     },
     {
       id: "hjcuscvqaoao",
       title: "Deep Learning for Damage Assessment using Remote Sensing Data",
-      description: "Designed and implemented a Convolutional Neural Network (CNN) for post-natural disaster damage assessment, leveraging remote sensing data, achieving a model accuracy of 95.68%. Worked on distributed training and GPU performance optimization for efficient model deployment. Streamlined deployment processes, reducing resource usage by 20%.",
-      url: "https://github.com/VarunSwaminathan/Deep-Learning-for-Damage-Assessment-using-Remote-Sensing-Data"
+      description:
+        "Designed and implemented a Convolutional Neural Network (CNN) for post-natural disaster damage assessment, leveraging remote sensing data, achieving a model accuracy of 95.68%. Worked on distributed training and GPU performance optimization for efficient model deployment. Streamlined deployment processes, reducing resource usage by 20%.",
+      url:
+        "https://github.com/VarunSwaminathan/Deep-Learning-for-Damage-Assessment-using-Remote-Sensing-Data",
     },
     {
       id: "NAIIBYbilsbcosaa",
       title: "Glove based Exercise Robot",
-      description: "pearheaded a team to design a robot translates braille characters from sensory input into hand movements. Achieved an implementation accuracy of 94.3%",
-
+      description:
+        "pearheaded a team to design a robot translates braille characters from sensory input into hand movements. Achieved an implementation accuracy of 94.3%",
     },
     {
       id: "isdbcsiqibcaiHUYV",
       title: "Brain Hemorrhage Detection",
-      description: "This project centered around the development and deployment of a Convolutional Neural Network (CNN) to accurately detect and classify brain hemorrhages from medical imaging data. The designed CNN not only showcased a high accuracy rate but also offered rapid processing capabilities, promising significant implications for timely and precise medical interventions in neurology. This project was later deployed in a cancer clinic in Chennai", 
-      url: "https://github.com/VarunSwaminathan/Brain-Hemorrhage-Detection-#brain-hemorrhage-detection-"
+      description:
+        "This project centered around the development and deployment of a Convolutional Neural Network (CNN) to accurately detect and classify brain hemorrhages from medical imaging data. The designed CNN not only showcased a high accuracy rate but also offered rapid processing capabilities, promising significant implications for timely and precise medical interventions in neurology. This project was later deployed in a cancer clinic in Chennai",
+      url:
+        "https://github.com/VarunSwaminathan/Brain-Hemorrhage-Detection-#brain-hemorrhage-detection-",
     },
     {
       id: "Hauygkudsdahc",
       title: "Stock Price Prediction",
-      description: "This project delved into the intricate realm of financial markets, aiming to forecast stock price movements using advanced machine learning techniques. The insights drawn from this model offer traders and investors a data-driven edge, aiding in informed decision-making and potential risk mitigation in the volatile landscape of stock trading."
+      description:
+        "This project delved into the intricate realm of financial markets, aiming to forecast stock price movements using advanced machine learning techniques. The insights drawn from this model offer traders and investors a data-driven edge, aiding in informed decision-making and potential risk mitigation in the volatile landscape of stock trading.",
     },
     {
-      id:"other",
+      id: "other",
       title: "Other Projects",
       description: "Click on the link to assess my other projects",
-      url: "https://github.com/VarunSwaminathan"
+      url: "https://github.com/VarunSwaminathan",
     },
   ],
 };
@@ -645,9 +653,11 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Machine learning-based Approach to Predict Single Nucleotide Polymorphism and Drug Resistance in Mycobacterium Tuberculosis from Time Series Genome Analysis",
+      name:
+        "Machine learning-based Approach to Predict Single Nucleotide Polymorphism and Drug Resistance in Mycobacterium Tuberculosis from Time Series Genome Analysis",
       // createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in IEEE Explorer ",
+      description:
+        "Paper Written on Artificial Intelligence published in IEEE Explorer ",
       // url:
       //   "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
     },
@@ -703,8 +713,7 @@ const contactPageData = {
   // },
   addressSection: {
     title: "Address",
-    subtitle:
-      "51 Merrimac, Buffalo",
+    subtitle: "51 Merrimac, Buffalo",
     locality: "Buffalo",
     country: "United States",
     region: "New York",
