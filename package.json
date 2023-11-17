@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "varunportfolio",
-  "homepage": "http://VarunSwaminathan.github.io/masterPortfolio",
+  "homepage": "http://VarunSwaminathan.github.io/VarunSwaminathan.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
